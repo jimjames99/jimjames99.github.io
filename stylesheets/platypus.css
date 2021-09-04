@@ -1,0 +1,60 @@
+      body {
+        margin-top:  100px;
+        padding: 0;
+        background-color: #f0f0f0;
+        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana", "Arial";
+        font-size: 16px;
+        color: #333;}
+      
+      a  {color: #03c;
+        text-decoration: none;}
+      
+      a:hover {
+        background-color: #03c;
+        color: white;
+        text-decoration: none;}
+      
+      #content {
+        float: left;
+        margin-left: 50px;
+        background-color: white;
+        border: 3px solid #aaa;
+        padding: 25px;
+        width: 250px;
+        height: 380px;
+        padding-left: 75px;
+        padding-right: 30px;
+        background-image: url("/images/platypus.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;}                     
+
+      #content h1, #content h2 {margin: 0}
+      
+      #content h2 {
+        color: #888;
+        font-weight: normal;
+        font-size: 16px;}
+
+      #sidebar {
+        float: left;
+        margin-left: 0;
+        padding-left: 0;
+        height:250px;
+        width:350px;}
+                
+      #sidebar ul h3 {
+        margin-top: 25px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;}
+        
+      #sidebar li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;}
+        
+      #credit, #travel, #philosophy, #cap, #hoa, #james, #aerial, #details {
+        background-color:#ddd;
+        padding: 10px 10px 10px 10px;
+        font-size: 12px;
+        overflow: hidden;
+        }
